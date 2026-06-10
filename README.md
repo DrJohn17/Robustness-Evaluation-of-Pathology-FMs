@@ -131,7 +131,7 @@ The evaluation produces several outputs:
 
 ### Mean Corruption Drop (MCD)
 
-The primary robustness metric is the Mean Corruption Drop (MCD), computed as:
+The primary robustness metric is the Mean Corruption Drop, computed as:
 
 ```
 MCD = mean for all corruption of the mean(baseline_AUROC - corrupted_AUROC) across all severity levels
